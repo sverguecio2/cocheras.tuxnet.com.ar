@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Cocheras </title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="/assets/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="stylesheet" href="/assets/css/pages/auth.css">
+    <link rel="stylesheet" href="assets/css/main/app.css">
+    <link rel="stylesheet" href="assets/css/pages/auth.css">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
+
+
 </head>
 
 <body>
@@ -19,9 +20,10 @@
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
 
-                <div class="auth-logo">
-                        <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo"></a>
-                    </div>                    <h1 class="auth-title">SyS UTN</h1>
+                    <div class="auth-logo">
+                        <a href="index.html"><img src="assets/images/logo/logo.svg" alt="Logo"></a>
+                    </div>
+                    <h1 class="auth-title">SyS UTN</h1>
 
                     <P class="auth-subtitle mb-5">Sistema de Cocheras</P>
 
@@ -39,7 +41,7 @@
                                 Se ve bien!
                             </div>
                             <div class="invalid-tooltip">
-                                Por favor ingrese un  nombre de usuario.
+                                Por favor ingrese un nombre de usuario.
                             </div>
 
 
@@ -51,7 +53,7 @@
                             </div>
 
                             <div class="valid-feedback">
-                            Se ve bien!
+                                Se ve bien!
                             </div>
                             <div class="invalid-tooltip">
                                 Por favor ingrese una contraseña.
@@ -88,29 +90,9 @@
 
     </div>
 
-    <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
+    <script src="assets/js/validation.js"></script>
 
-        (function() {
-            'use strict'
-
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms)
-                .forEach(function(form) {
-                    form.addEventListener('submit', function(event) {
-                        if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
-                        }
-
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-        })()
-    </script>
+   
 
 </body>
 
