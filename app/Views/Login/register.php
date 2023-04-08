@@ -53,8 +53,7 @@
                     </form>
                     <div class="text-center mt-5 text-lg fs-4">
                         <p class='text-gray-600'>¿Ya tienes una cuenta? <a href="/"
-                                class="font-bold">Log
-                                in</a>.</p>
+                                class="font-bold">Login</a>.</p>
                     </div>
                 </div>
             </div>
