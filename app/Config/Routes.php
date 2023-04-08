@@ -31,14 +31,24 @@ $routes->setAutoRoute(false);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Login::index');
-//$routes->get('login', 'Login::index');
+// get y post /
+$routes->match(['get', 'post'], '/', 'Login::index');
+
+$routes->match(['get', 'post'], 'verificar', 'Login::verificar');
+//https://cocheras.tuxnet.com.ar/registrate
+$routes->match(['get', 'post'], 'registrate', 'Login::registrate');
+//https://cocheras.tuxnet.com.ar/restablecer/clave
+$routes->match(['get', 'post'], 'restablecer/clave', 'Login::restablecerclave');
+
+
+
 $routes->get('imprimir', 'Imprimir::index');
 $routes->get('imprimirjs', 'Imprimir::printjs');
 
 
 //usar el filtro auth en el controlador login
 $routes->get('test', 'Test::index', ['filter' => 'auth']);
+
 
 /*
  * --------------------------------------------------------------------
