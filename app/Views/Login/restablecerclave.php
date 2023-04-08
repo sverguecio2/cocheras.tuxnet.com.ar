@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Mazer Admin Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/app.css">
+    <title>Login - Restablecer Clave</title>
+    
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/main/app.css">
     <link rel="stylesheet" href="<?= base_url() ?>/assets/css/pages/auth.css">
+    <link rel="shortcut icon" href="<?= base_url() ?>/assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= base_url() ?>/assets/images/logo/favicon.png" type="image/png">
+
+
 </head>
 
 <body>
@@ -19,7 +21,7 @@
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
                     <div class="auth-logo">
-                        <a href="index.html"><img src="<?= base_url() ?>/assets/images/logo/logo.png" alt="Logo"></a>
+                        <a href="index.html"><img src="<?= base_url() ?>/assets/images/logo/logo.svg" alt="Logo"></a>
                     </div>
                     <h1 class="auth-title">Has olvidado tu contraseña</h1>
                     <p class="auth-subtitle mb-5">Ingrese su correo electrónico y le enviaremos un enlace para restablecer la contraseña.</p>

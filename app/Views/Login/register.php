@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Mazer Admin Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/main/app.css">
     <link rel="stylesheet" href="assets/css/pages/auth.css">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -19,7 +18,7 @@
             <div class="col-lg-5 col-12">
                 <div id="auth-left">
                     <div class="auth-logo">
-                        <a href="/"><img src="assets/images/logo/logo.png" alt="Logo"></a>
+                        <a href="/"><img src="assets/images/logo/logo.svg" alt="Logo"></a>
                     </div>
                     <h1 class="auth-title">Registro</h1>
                     <p class="auth-subtitle mb-5">Ingrese sus datos para registrarse en nuestro sitio web.</p>
@@ -52,9 +51,7 @@
                         <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Registrar</button>
                     </form>
                     <div class="text-center mt-5 text-lg fs-4">
-                        <p class='text-gray-600'>¿Ya tienes una cuenta? <a href="/"
-                                class="font-bold">Log
-                                in</a>.</p>
+                        <p class='text-gray-600'>¿Ya tienes una cuenta? <a href="/" class="font-bold">Login</a>.</p>
                     </div>
                 </div>
             </div>
